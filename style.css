@@ -53,7 +53,7 @@
 
 .back-card-number{
     position: absolute;
-    top: 45%;
+    top: 41%;
     left: 83%;
     font-size: 19px;
     color: var(--White);
@@ -64,7 +64,7 @@
     position: absolute;
     top: 80%;
     left: 8%;
-    font-size: 30px;
+    font-size: 26px;
     color: var(--White);
     z-index: 100;
 }
@@ -107,7 +107,7 @@
 
 
 .form_text-area{
-    padding-top: 120px;
+    padding-top: 97px;
     padding-left: 18px;
     padding-right: 20px;
     
