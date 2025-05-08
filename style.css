@@ -29,15 +29,15 @@
 
 .card-area{
     background: linear-gradient(to right, hsl(278, 68%, 11%), hsl(278, 68%, 11%), hsl(278, 95%, 26%), hsl(278, 95%, 26%), hsl(278, 68%, 11%));
-    height: 42vh;
+    height: 35vh;
     position: relative;
 }
 
 .back-card img{
     width: 80%;
     position: absolute;
-    left: 17%;
-    top: 14%;
+    left: 19%;
+    top: 13%;
     
 
 
@@ -46,15 +46,15 @@
 .front-card img{
     width: 80%;
     position: absolute;
-    top: 49.5%;
+    top: 50%;
     left: 3%;
     z-index: 10;
 }
 
 .back-card-number{
     position: absolute;
-    top: 40.5%;
-    left: 79%;
+    top: 45%;
+    left: 83%;
     font-size: 19px;
     color: var(--White);
 
@@ -107,7 +107,7 @@
 
 
 .form_text-area{
-    padding-top: 50px;
+    padding-top: 120px;
     padding-left: 18px;
     padding-right: 20px;
     
