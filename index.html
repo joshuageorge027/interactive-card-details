@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="container">
+      <section class="card-area">
+        <figure class="back-card">
+          <img src="./images/bg-card-back.png" alt="">
+        </figure>
+        <article class="back-card-number">000</article>
+        <article class="front-card-logo"></article>
+        <article class="front-card-circle"></article>
+        <article class="front-card-number">0000 0000 0000 0000</article>
+        <div class="jane-appleseed">
+          <div>JANE APPLESEED</div>
+          <div>00/00</div>
+        </div>
+
+        <figure class="front-card">
+          <img src="./images/bg-card-front.png" alt="">
+        </figure>
+      </section>
+
+      <article class="form_text-area">
+
+        <form action="">
+            
+              <label for="name" class="holder-name">CARDHOLDER NAME</label>
+            <div class="card-name">
+              <input type="text" name="name" id="name" required placeholder="e.g. Jane Appleseed">
+            </div>
+
+
+            <label for="name" class="holder-name">CARD NUMBER</label>
+            <div class="card-number">
+              <input type="text" name="number" id="number" placeholder="e.g. 1234 5678 9123 0000">
+            </div>
+
+          
+              
+          <label for="month year" class="holder-name">EXP. DATE(MM/YY)</label>
+          <label for="cvc" class="holder">CVC</label>
+          <div class="date-and-cvc">
+              <main class="date">
+                <input type="text" name="month" id="month" placeholder="MM">
+              </main>
+                <input type="text" name="year" id="year" placeholder="YY">
+              
+                <main class="cvc"> 
+                  <input type="text" name="cvc" id="cvc" placeholder="e.g. 123">
+              </main> 
+          </div> 
+
+          <aside>
+              <input type="submit" value="Confirm">     
+          </aside>
+
+      </form>
+
+      </article>
+  </section>
+  <!-- 0000 0000 0000 0000
+  Jane Appleseed
+  00/00
+
+  000
+
+  Cardholder Name
+  e.g. Jane Appleseed
+
+  Card Number
+  e.g. 1234 5678 9123 0000
+
+  Exp. Date (MM/YY)
+  MM
+  YY
+
+  CVC
+  e.g. 123
+
+  Confirm
+
+  <!-- Completed state start -->
+
+  <!-- Thank you!
+  We've added your card details
+  Continue --> 
+  
+ 
+</body>
+</html>
